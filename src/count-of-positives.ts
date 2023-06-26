@@ -1,22 +1,15 @@
-/**
- * There was a test in your class and you passed it. 
- * Congratulations!
-But you're an ambitious person. You want to know if 
-you're better than the average student in your class.
+// Given an array of integers.
+// Return an array, where the first element is the count of positives 
+// numbers and the second element is sum of negative numbers. 0 is neither
+//  positive nor negative.
+// If the input is an empty array or is null, return an empty array.
+// Example
+// For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], 
+// you should return [10, -65].
 
-You receive an array with your peers' test scores. 
-Now calculate the average and compare your score!
-
-Return True if you're better, else False!
-
-Note:
-Your points are not included in the array of your 
-class's points. For calculating the average point 
-you may add your point to the given array!
- */
-
-function countOfPositives(classPoints: number[], yourPoints: number) : boolean {
-  return true;
+export function countPositivesSumNegatives(input: number[]): number[] {
+  let result: number[] = []
+  return result
 }
 
-export default countOfPositives;
+export default countPositivesSumNegatives;
